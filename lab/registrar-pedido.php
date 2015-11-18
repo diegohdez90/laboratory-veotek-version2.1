@@ -18,7 +18,7 @@
 			<img id="cargando" src="img/cargando.gif">
 				<?php
                             //1. Crear conexión a la Base de Datos
-                        $link = mysqli_connect("localhost","root","veotek");
+                        $link = mysqli_connect("localhost","root","");
                                 mysqli_select_db($link, "labveotek");  
                                 
                         $folio = $_POST['folio'];
